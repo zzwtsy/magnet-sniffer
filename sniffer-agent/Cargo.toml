@@ -1,0 +1,27 @@
+[package]
+name = "sniffer-agent"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "magnet-sniffer-agent"
+path = "src/main.rs"
+
+
+[dependencies]
+sniffer-common = { workspace = true }
+tracing = { workspace = true }
+tokio = { workspace = true }
+hex = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+serde_bytes = { workspace = true }
+serde_bencode = { workspace = true }
+bt_bencode = { workspace = true }
+rand = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+sha1 = { workspace = true }
+async-trait = { workspace = true }
+reqwest = { workspace = true }
+url = { workspace = true }
+futures = { workspace = true }

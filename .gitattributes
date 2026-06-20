@@ -1,0 +1,26 @@
+.agents/** linguist-generated=true
+
+# 默认：文本文件自动识别，统一用 LF 行尾入库
+* text=auto eol=lf
+
+# 显式声明项目中的文本类型（均为 LF）
+*.rs    text eol=lf
+*.toml  text eol=lf
+*.lock  text eol=lf
+*.md    text eol=lf
+*.sh    text eol=lf
+*.json  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# Windows 专用脚本保留 CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# 二进制资源
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.zip   binary
