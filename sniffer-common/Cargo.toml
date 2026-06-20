@@ -9,12 +9,7 @@ tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 tracing-appender = { workspace = true }
 time = { workspace = true }
-serde_bytes = { workspace = true }
-getrandom = { workspace = true }
-serde = { workspace = true }
-serde_bencode = { workspace = true }
 thiserror = { workspace = true }
-crc = { workspace = true }
 
 [lints]
 workspace = true
