@@ -25,3 +25,6 @@ async-trait = { workspace = true }
 reqwest = { workspace = true }
 url = { workspace = true }
 futures = { workspace = true }
+
+[lints]
+workspace = true

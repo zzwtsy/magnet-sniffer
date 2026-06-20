@@ -31,5 +31,18 @@ futures = "0.3.32"
 sha1 = "0.11.0"
 async-trait = "0.1"
 
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.clippy]
+all = "warn"
+# 降噪：关掉对网络/二进制解析项目过于苛刻的规则
+needless_pass_by_value = "allow"
+module_name_repetitions = "allow"
+must_use_candidate = "allow"
+
 [profile.release]
+opt-level = 3
 lto = true
+codegen-units = 1
+strip = "symbols"
