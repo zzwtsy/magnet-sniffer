@@ -135,8 +135,8 @@ flowchart LR
 | Slice 2 | [`docs/02-storage/`](../02-storage/index.md) | ✅ 已落盘 |
 | Slice 3 | [`docs/03-protocol/`](../03-protocol/index.md) | ✅ 已落盘 |
 | Slice 4 | [`docs/04-backend-skeleton/`](../04-backend-skeleton/index.md) | ✅ 已落盘 |
-| Slice 5 | `docs/05-agent-skeleton/` | 待讨论 |
-| Slice 6 | `docs/06-bt-engine/` | 待讨论 |
+| Slice 5 | [`docs/05-agent-skeleton/`](../05-agent-skeleton/index.md) | ✅ 已落盘 |
+| Slice 6 | [`docs/06-bt-engine/`](../06-bt-engine/index.md) | ✅ 已落盘 |
 | Slice 7 | `docs/07-dht-crawl/` | 待讨论 |
 | Slice 8 | `docs/08-metadata-fetch/` | 待讨论 |
 | Slice 9 | `docs/09-ingest-pipeline/` | 待讨论 |
