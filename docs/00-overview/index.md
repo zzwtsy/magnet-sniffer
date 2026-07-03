@@ -144,3 +144,11 @@ flowchart LR
 | Slice 11 | `docs/11-malicious-analysis/` | 待讨论 |
 | Slice 12 | `docs/12-task-dispatch/` | 待讨论 |
 | Slice 13 | `docs/13-ops-observability/` | 待讨论 |
+
+## 6. 参考资料（reference）
+
+跨切片复用的外部实现/调研笔记放在 `docs/reference/`，不属于任何垂直切片，作为各 slice 设计时的先行者参考。
+
+| 文档 | 说明 |
+| --- | --- |
+| [`docs/reference/bitmagnet-dht-crawler.md`](../reference/bitmagnet-dht-crawler.md) | 剖析 [bitmagnet](https://github.com/bitmagnet-io/bitmagnet)（Go）的 DHT 爬虫实现——并发管道架构、btree 路由表（K=80）、BEP-51 sample_infohashes、BEP-9 元数据抓取、诚实节点 responder。服务于 Slice 7（DHT 爬取）/ 8（元数据抓取）/ 13（运维可观测）。 |
